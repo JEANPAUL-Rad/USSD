@@ -16,7 +16,7 @@ app.post('/ussd', (req, res) => {
 
     // ✅ STEP 1: Language selection (first screen if text is empty)
     if (text === '') {
-        response = ` Choose your language / Hitamo ururimi
+        response = `CON Choose your language / Hitamo ururimi
 1. English
 2. Kinyarwanda`;
     } 
